@@ -1,17 +1,19 @@
 #物联网
 
+commit test
+
 > 物联网是新一代信息技术的重要组成部分，其英文名称是：“The Internet of things”。顾名思义，物联网就是物物相连的互联网。这有两层意思：其一，物联网的核心和基础仍然是互联网，是在互联网基础上的延伸和扩展的网络；其二，其用户端延伸和扩展到了任何物品与物品之间，进行信息交换和通信 也就是物物相息。物联网就是“物物相连的互联网”。
 
 ##物联网协议
 
-Protocol |	CoAP  |	XMPP |	RESTful HTTP |	MQTT
----------|---------|---------|---------|---------
-Transport |	UDP |	TCP |	TCP |	TCP
-Messaging |	Request/Response |	Publish/Subscribe Request/Response |	Request/Response |	Publish/Subscribe Request/Response
-2G, 3G, 4G Suitability (1000s nodes) | Excellent |	Excellent |	Excellent |	Excellent
-LLN Suitability (1000s nodes) | Excellent |	Fair |	Fair |	Fair
-Compute Resources | 10Ks RAM/Flash | 10Ks RAM/Flash | 10Ks RAM/Flash | 10Ks RAM/Flash
-Success Storied	| Utility Field Area Networks |		Remote management of consumer white goods |	Smart Energy Profile 2 (premise energy management/home services) |	Extending enterprise messaging into IoT applications
+| Protocol                             | CoAP                        | XMPP                                     | RESTful HTTP                             | MQTT                                     |
+| ------------------------------------ | --------------------------- | ---------------------------------------- | ---------------------------------------- | ---------------------------------------- |
+| Transport                            | UDP                         | TCP                                      | TCP                                      | TCP                                      |
+| Messaging                            | Request/Response            | Publish/Subscribe Request/Response       | Request/Response                         | Publish/Subscribe Request/Response       |
+| 2G, 3G, 4G Suitability (1000s nodes) | Excellent                   | Excellent                                | Excellent                                | Excellent                                |
+| LLN Suitability (1000s nodes)        | Excellent                   | Fair                                     | Fair                                     | Fair                                     |
+| Compute Resources                    | 10Ks RAM/Flash              | 10Ks RAM/Flash                           | 10Ks RAM/Flash                           | 10Ks RAM/Flash                           |
+| Success Storied                      | Utility Field Area Networks | Remote management of consumer white goods | Smart Energy Profile 2 (premise energy management/home services) | Extending enterprise messaging into IoT applications |
 
 ###XMPP
 
@@ -76,7 +78,7 @@ Thread是一种基于简化版IPv6的网状网络协议，该协议由行业领�
 > uIP 由瑞典计算机科学学院(网络嵌入式系统小组)的Adam Dunkels 开发。其源代码由C 语言编写，并完全公开。
 
 > uIP 协议栈去掉了完整的 TCP/IP 中不常用的功能，简化了通讯流程，但保留了网络通信必须使用的协议，设计重点放在了 
-IP/TCP/ICMP/UDP/ARP 这些网络层和传输层协议上，保证了其代码的通用性和结构的稳定性。
+> IP/TCP/ICMP/UDP/ARP 这些网络层和传输层协议上，保证了其代码的通用性和结构的稳定性。
 
 
 ###DTLS
@@ -115,8 +117,8 @@ IP/TCP/ICMP/UDP/ARP 这些网络层和传输层协议上，保证了其代码的
 ###Devicehub.net
 
 > Devicehub.net描述自己为“物联网的开源支柱”。它是一个基于云的服务，存储物联网相关的数据，提供数据的可视化并允许用户在网页上控制物联网设备。开发者使用该服务创建跟踪健康信息的应用程序，监视孩子的位置，自动化家电，跟踪车辆数据，监测天气等等。
-> 
-主页: [http://devicehub.net/](http://devicehub.net/)
+>
+> 主页: [http://devicehub.net/](http://devicehub.net/)
 
 ###IoT Toolkit
 
@@ -190,7 +192,7 @@ Contiki只需几kilobyte的代码和几百字节的内存就能提供多任务�
 > embOS是一个优先级控制的多任务系统，是专门为各种微控制器应用于实时系统应用的嵌入式操作系统．是一个具有最小RAM和ROM占用的、高速的、多功能的高性能工具。
 
 > 贯穿embOS的整个开发过程，微控制器有限的资源一直是开发者所顾忌的。五年来，该RTOS的内部结构已经被优化为不同客户的不同应用中，以满足工业需要。对不同微控制器的完全源码，使开发者很方便用实时操作系统构建实时程序。embOS是高度模块化的，只有需要的函数才被调用，占用的ROM非常小。 最小的内存占用：1kb ROM,30字节 RAM;由于提供源码文件，你可以用embOS灵活定制系统以满足实际需求。
-任务之间可以通过旗语、邮箱和事件安全便利地通讯。
+> 任务之间可以通过旗语、邮箱和事件安全便利地通讯。
 
 ###Salvo
 
@@ -346,36 +348,36 @@ Contiki只需几kilobyte的代码和几百字节的内存就能提供多任务�
 
 ##中高级
 
-书名 | 作者 | 日期 | 类型
------------- | ------------- | ------------ | ------------
- - | - | - |  -
+| 书名   | 作者   | 日期   | 类型   |
+| ---- | ---- | ---- | ---- |
+| -    | -    | -    | -    |
 
 
 ##初级
 
-书名 | 作者 | 日期 | 类型 
------------- | ------------- | ------------ | ------------
-[Learning Internet of Things](https://www.packtpub.com/application-development/learning-internet-things) | Peter Waher | 2015.02 | Book & Ebook|
-[一步步搭建物联网系统](http://designiot.phodal.com) | Phodal Fengda & Fortware | 2014.11 | 电子书 | -
-[Learning Internet of Things] |  - | - | - 
+| 书名                                       | 作者                       | 日期      | 类型           |
+| ---------------------------------------- | ------------------------ | ------- | ------------ |
+| [Learning Internet of Things](https://www.packtpub.com/application-development/learning-internet-things) | Peter Waher              | 2015.02 | Book & Ebook |
+| [一步步搭建物联网系统](http://designiot.phodal.com) | Phodal Fengda & Fortware | 2014.11 | 电子书          |
+| [Learning Internet of Things]            | -                        | -       | -            |
 
 
 ##相关书籍
 
 ###WEB
 
-书名 | 作者 |  日期  | 类型
------------- | ------------- | ------------ | ------------
- RESTful Web APIs | Leonard Richardson & Mike Amundsen |  2014.06 | -
- REST实战 | 韦伯 & 帕拉斯泰迪斯 | 2011.09. | -
+| 书名               | 作者                                 | 日期       | 类型   |
+| ---------------- | ---------------------------------- | -------- | ---- |
+| RESTful Web APIs | Leonard Richardson & Mike Amundsen | 2014.06  | -    |
+| REST实战           | 韦伯 & 帕拉斯泰迪斯                        | 2011.09. | -    |
 
 ###硬件
 
-书名 | 作者 | 日期 | 类型 |
------------- | ------------- | ------------ | ------------
- Arduino从基础到实践 | Michael McRoberts | 2013.03 |  -
- Arduino Cookbook | Michael Margolis | 2011.04 | -
- Raspberry Pi用户指南 | Eben Upton | 2013.08  | -
+| 书名               | 作者                | 日期      | 类型   |      |
+| ---------------- | ----------------- | ------- | ---- | ---- |
+| Arduino从基础到实践    | Michael McRoberts | 2013.03 | -    |      |
+| Arduino Cookbook | Michael Margolis  | 2011.04 | -    |      |
+| Raspberry Pi用户指南 | Eben Upton        | 2013.08 | -    |      |
 
 ##物联网相关博客集
 
@@ -391,11 +393,11 @@ Contiki只需几kilobyte的代码和几百字节的内存就能提供多任务�
 【[第4部分](http://blog.csdn.net/xukai871105/article/details/14461741) 】
 
 ###STM32NET学习笔记
-   
+
 【[STM32NET学习笔记——ARP和Ethernet部分](http://blog.csdn.net/xukai871105/article/details/17564487)】
 
 【[STM32NET学习笔记——IPICMP部分](http://blog.csdn.net/xukai871105/article/details/19938133)】
- 
+
 【[STM32NET学习笔记——UDP部分](http://blog.csdn.net/xukai871105/article/details/23085679)】
 
 【[STM32NET学习笔记——TCP部分](http://blog.csdn.net/xukai871105/article/details/37729201)】
